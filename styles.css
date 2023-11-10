@@ -28,7 +28,7 @@ hr {
 
 .header {
     position: fixed;
-    width: 300px;
+    width: 280px;
     height: 100%;
     padding: 30px;
     text-align: center;
@@ -42,6 +42,7 @@ hr {
 
 .content h2 {
     color: #264653;
+    margin-bottom: 0;
 }
 
 .content h2:first-child {
@@ -84,35 +85,29 @@ hr {
     filter: brightness(120%);
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .page {
         flex-direction: column;
+        padding: 16px;
     }
 
     .header {
         position: static;
         width: 100%;
         padding: 0;
-        display: flex;
-        text-align: left;
     }
 
     .header h1 {
-        margin-top: 28px;
-    }
-
-    .subtitle {
-        display: none;
+        margin-top: 16px;
     }
 
     .content {
-        padding: 30px 20px 20px 20px;
-        margin-left: 0;
+        padding: 0;
+        margin: 16px 0 0 0;
     }
 
     .portrait {
         width: 100px;
         height: 100px;
-        margin: 20px 30px 0 20px;
     }
 }
