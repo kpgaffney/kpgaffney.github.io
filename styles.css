@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 110%;
+}
+
+a {
+    color: #BF5034;
+}
+
+a:hover {
+    color: #853724;
+}
+
+hr {
+    border: 1px solid #DFDFDF;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    color: #264653;
+}
+
+.content {
+    margin-left: 360px;
+    padding: 30px 30px 30px 0;
+}
+
+.content h2 {
+    color: #264653;
+}
+
+.content h2:first-child {
+    margin-top: 0;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}
+
+.portrait {
+    border-radius: 90px;
+    box-shadow: 3px 3px 10px #AAAAAA;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.social {
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.social:first-child {
+    margin-left: 0;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+.social:hover {
+    filter: brightness(120%);
+}
+
+@media (max-width: 800px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .header {
+        position: static;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        text-align: left;
+    }
+
+    .header h1 {
+        margin-top: 28px;
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .content {
+        padding: 30px 20px 20px 20px;
+        margin-left: 0;
+    }
+
+    .portrait {
+        width: 100px;
+        height: 100px;
+        margin: 20px 30px 0 20px;
+    }
+}
