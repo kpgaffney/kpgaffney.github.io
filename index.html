@@ -1,114 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Kevin P. Gaffney</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin P. Gaffney</title>
+  <meta name="description" content="Kevin P. Gaffney is an Applied Scientist at Microsoft Gray Systems Lab in Barcelona, working on database systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kpgaffney.com/">
+  <meta property="og:title" content="Kevin P. Gaffney">
+  <meta property="og:description" content="Applied Scientist at Microsoft Gray Systems Lab in Barcelona, working on database systems.">
+  <meta property="og:image" content="https://kpgaffney.com/assets/headshot.jpg">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="page container">
-    <div class="header">
-        <img src="assets/headshot.jpg" alt="Headshot" class="portrait">
-        <h1 class="title">Kevin P. Gaffney</h1>
-        <h3 class="subtitle">
-            PhD Candidate in Computer Sciences at the University of Wisconsin-Madison
-        </h3>
-        <div>
-            <a href="https://www.linkedin.com/in/kpgaffney" class="social">
-                <img src="assets/linkedin.svg" width="25" height="25" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/kpgaffney" class="social">
-                <img src="assets/github.svg" width="25" height="25" alt="GitHub">
-            </a>
-            <a href="https://scholar.google.com/citations?user=7XEI4X0AAAAJ&hl=en&authuser=2" class="social">
-                <img src="assets/googlescholar.svg" width="25" height="25" alt="Google Scholar">
-            </a>
-        </div>
+  <header>
+    <img src="assets/headshot.jpg" alt="Kevin P. Gaffney" width="180" height="180" class="portrait">
+    <h1>Kevin P. Gaffney</h1>
+    <p class="subtitle">Applied Scientist at Microsoft Gray Systems Lab</p>
+    <div class="social">
+      <a href="mailto:kevin.gaffney@microsoft.com"><img src="assets/email.svg" alt="Email" width="25" height="25"></a>
+      <a href="https://scholar.google.com/citations?user=7XEI4X0AAAAJ"><img src="assets/googlescholar.svg" alt="Google Scholar" width="25" height="25"></a>
+      <a href="https://github.com/kpgaffney"><img src="assets/github.svg" alt="GitHub" width="25" height="25"></a>
+      <a href="https://www.linkedin.com/in/kpgaffney"><img src="assets/linkedin.svg" alt="LinkedIn" width="25" height="25"></a>
     </div>
+  </header>
 
-    <div class="content">
-        <h2>About</h2>
-        <p>
-            I'm a PhD candidate in the <a
-                href="https://database.cs.wisc.edu">Database Systems Group</a> at the University of Wisconsin-Madison. I'm advised by
-            <a href="https://jigneshpatel.org">Jignesh M. Patel</a>. Previously, I earned Bachelor's degrees in Computer Science and Biochemistry from the University of Oklahoma in 2018.
-        </p>
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>
+        I'm an Applied Scientist at Microsoft
+        <a href="https://www.microsoft.com/en-us/research/group/gray-systems-lab/">Gray Systems Lab</a>
+        in Barcelona, where I work on database systems research. I received my PhD in Computer Sciences
+        from the University of Wisconsin–Madison in 2024, advised by
+        <a href="https://jigneshpatel.org">Jignesh M. Patel</a> in the
+        <a href="https://database.cs.wisc.edu">Database Systems Group</a>. Previously, I earned Bachelor's
+        degrees in Computer Science and Biochemistry from the University of Oklahoma in 2018.
+      </p>
+      <p>
+        My research focuses on maximizing the performance of database systems by leveraging
+        modern and emerging hardware.
+      </p>
+    </section>
 
-        <p>
-            My research focuses on maximizing the performance of database systems. Currently, I'm interested in two approaches: (1) practical space-efficient data structures and (2) data processing on emerging and heterogeneous hardware.
-        </p>
+    <section>
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <strong><a href="https://doi.org/10.1109/ISCA66397.2026.00039">Taking Analytic Databases to the Bank</a></strong>.
+          Alexandar Devic, Martin Prammer, <strong>Kevin P. Gaffney</strong>, Siddhartha Balakrishna Rai,
+          Anand Sivasubramaniam, Jignesh M. Patel, Ameen Akel.
+          <em>ISCA</em> (2026).
+        </li>
+        <li>
+          <strong><a href="https://doi.org/10.1145/3788853.3803077">CoddSpeed: Hardware Accelerated Query Processing in Microsoft Fabric</a></strong>.
+          Matteo Interlandi, Nicolas Bruno, Brandon Haynes, Carlo Curino, Rathijit Sen, Yinan Li, Kaushik Rajan,
+          Bailu Ding, Lukas M. Maas, Wei Cui, <strong>Kevin P. Gaffney</strong>, et al.
+          <em>SIGMOD</em> (2026). <strong>Industry Track Best Paper Award.</strong>
+        </li>
+        <li>
+          <strong><a href="https://doi.org/10.1145/3786775">Membrane: Accelerating Database Analytics with DRAM-Based PIM Filtering and Schema Denormalization</a></strong>.
+          Akhil Shekar, <strong>Kevin P. Gaffney</strong>, Martin Prammer, Khyati Kiyawat, Lingxi Wu, Helena Caminal,
+          Zhenxing Fan, Yimin Gao, Ashish Venkat, José F. Martínez, Jignesh M. Patel, Kevin Skadron.
+          <em>ACM TACO</em> (2026).
+        </li>
+        <li>
+          <strong><a href="https://www.proquest.com/openview/449b68cc77744a6337d19c68d9562dd4/1">Bridging the Processor-Memory Performance Gap in Database Systems</a></strong>.
+          <strong>Kevin P. Gaffney</strong>.
+          <em>PhD Dissertation, University of Wisconsin–Madison</em> (2024).
+        </li>
+        <li>
+          <strong><a href="https://vldb.org/cidrdb/papers/2024/p65-gaffney.pdf">Is Perfect Hashing Practical for OLAP Systems?</a></strong>
+          <strong>Kevin P. Gaffney</strong>, Jignesh M. Patel.
+          <em>CIDR</em> (2024).
+        </li>
+        <li>
+          <strong><a href="https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf">SQLite: Past, Present, and Future</a></strong>.
+          <strong>Kevin P. Gaffney</strong>, Martin Prammer, Larry Brasfield, D. Richard Hipp, Dan Kennedy,
+          Jignesh M. Patel.
+          <em>VLDB</em> (2022).
+          [<a href="https://shows.acast.com/disseminate/episodes/kevin-gaffney-sqlite-past-present-and-future">podcast</a>]
+        </li>
+        <li>
+          <strong><a href="https://doi.org/10.1145/3514221.3526148">How Good is My HTAP System?</a></strong>
+          Elena Milkai, Yannis Chronis, <strong>Kevin P. Gaffney</strong>, Zhihan Guo, Jignesh M. Patel, Xiangyao Yu.
+          <em>SIGMOD</em> (2022).
+        </li>
+        <li>
+          <strong><a href="https://www.vldb.org/pvldb/vol14/p1467-gaffney.pdf">Database Isolation By Scheduling</a></strong>.
+          <strong>Kevin P. Gaffney</strong>, Robert Claus, Jignesh M. Patel.
+          <em>VLDB</em> (2021).
+        </li>
+        <li>
+          <strong><a href="https://doi.org/10.1097/PEP.0000000000000602">Goal Attainment Scaling Made Easy With an App: GOALed</a></strong>.
+          Erin Gaffney, <strong>Kevin P. Gaffney</strong>, Lori Bartleson, Cindy Dodds.
+          <em>Pediatric Physical Therapy</em> (2019).
+        </li>
+        <li>
+          <strong><a href="https://doi.org/10.1117/12.2254501">Automated Detection and Quantification of Residual Brain Tumor Using an Interactive Computer-Aided Detection Scheme</a></strong>.
+          <strong>Kevin P. Gaffney</strong>, Faranak Aghaei, James Battiste, Bin Zheng.
+          <em>SPIE Medical Imaging</em> (2017).
+        </li>
+      </ul>
+    </section>
 
-        <hr>
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Applied Scientist</strong>, Gray Systems Lab, Microsoft (2024–present).</li>
+        <li><strong>Research Assistant</strong>, Database Systems Group, University of Wisconsin–Madison (2018–2024).</li>
+        <li><strong>Graduate Intern</strong>, LinkedIn (2022).</li>
+        <li><strong>Research Scholar</strong>, SRC Research Scholars Program (2018–2022).</li>
+      </ul>
+    </section>
 
-        <h2>Publications</h2>
-
-        <p>
-            <strong><a
-                    href="https://www.cidrdb.org/cidr2024/papers/p65-gaffney.pdf">Is Perfect Hashing Practical for OLAP Systems?</a></strong>.
-            <strong>Kevin P. Gaffney</strong>, Jignesh M. Patel. <em>CIDR</em> (2024).
-        </p>
-
-        <p>
-            <strong><a
-                    href="https://dl.acm.org/doi/abs/10.14778/3554821.3554842">SQLite: Past, Present, and Future</a></strong>.
-            <strong>Kevin P. Gaffney</strong>, Martin Prammer, Larry Brasfield, D. Richard Hipp, Dan Kennedy, Jignesh M. Patel.
-            <em>VLDB</em> (2022).
-        </p>
-
-        <p>
-            <strong><a
-                    href="https://dl.acm.org/doi/10.1145/3514221.3526148">How Good is My HTAP System?</a></strong>. Elena Milkai, Yannis Chronis,
-            <strong>Kevin P. Gaffney</strong>, Zhihan Guo, Jignesh M. Patel, Xiangyao Yu. <em>SIGMOD</em> (2022).
-        </p>
-
-        <p>
-            <strong><a
-                    href="https://dl.acm.org/doi/abs/10.14778/3461535.3461537">Database Isolation By Scheduling</a></strong>.
-            <strong>Kevin P. Gaffney</strong>, Robert Claus, Jignesh M. Patel. <em>VLDB</em> (2021).
-        </p>
-
-        <p>
-            <strong><a
-                    href="https://pubmed.ncbi.nlm.nih.gov/30907841/">Goal Attainment Scaling Made Easy With an App: GOALed</a></strong>. Erin Gaffney,
-            <strong>Kevin P. Gaffney</strong>, Lori Bartleson, Cindy Dodds. <em>Pediatric Physical Therapy</em> (2019).
-        </p>
-
-        <p>
-            <strong><a
-                    href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10134/101342I/Automated-detection-and-quantification-of-residual-brain-tumor-using-an/10.1117/12.2254501.short?SSO=1">Automated Detection and Quantification of Residual Brain Tumor Using an Interactive Computer-Aided Detection Scheme</a></strong>.
-            <strong>Kevin P. Gaffney</strong>, Faranak Aghaei, James Battiste, Bin Zheng.
-            <em>SPIE Medical Imaging</em> (2017).
-        </p>
-
-        <hr>
-
-        <h2>Experience</h2>
-
-        <p>
-            <strong>Research Assistant</strong>, Database Systems Group, University of Wisconsin-Madison (2018 - present).
-        </p>
-
-        <p>
-            <strong>Research Scholar</strong>, SRC Research Scholars Program (2018 - 2022).
-        </p>
-
-        <p>
-            <strong>Graduate Intern</strong>, LinkedIn (2022).
-        </p>
-
-        <hr>
-
-        <h2>Teaching</h2>
-
-        <p>
-            <strong>CS 564 Database Management Systems: Design and Implementation</strong>. Instructor (Spring 2023).
-        </p>
-    </div>
-</div>
-
+    <section>
+      <h2>Teaching</h2>
+      <ul>
+        <li><strong>CS 564 Database Management Systems: Design and Implementation</strong>. Instructor (Spring 2023).</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
